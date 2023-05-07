@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gloria+Hallelujah&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 16px;
+
+  /* Color variables */
+  --backgroung: #E6D5B4;
+  --backgroung-detail: #C5A042;
+  --tile-bg: #F5F3F1;
+  --egg-color: #D5AE4C;
+  --egg-detail-color: #E4E4E4;
+  
+  /* Font familys variables */
+  --header-font: 'Fredericka the Great', cursive;
+  --default-font: 'Gloria Hallelujah', cursive;
+}
+body {
+  margin: 0;
+  background-color: var(--backgroung);
+  font-family: var(--default-font);
+}
+
+
+/* --- Background styles --- */
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--egg-detail-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url(assets/img/background/watermelon.svg);
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.brand-name {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.brand-name span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.2rem;
+  transform-origin: 0 200px;
+}
