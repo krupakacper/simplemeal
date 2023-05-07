@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>Hejunia</div>
+    <div>Hejunia!</div>
   );
 }
 
