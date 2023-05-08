@@ -16,9 +16,11 @@
   </head>
   <body>
 
-    <?php include 'background.php'; ?>
-
-
+    <?php 
+      include 'background.php';
+      include 'topbar.php';
+    ?>
+    
     <script src="main.js"></script>
   </body>
 </html>
